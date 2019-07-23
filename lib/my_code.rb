@@ -47,7 +47,6 @@ def reduce_to_all_true(source_array)
     else
       return true
   end
-
 end
 
 def reduce_to_any_true (source_array)
