@@ -39,9 +39,16 @@ end
 
 def reduce_to_all_true(source_array)
   #source_array.reduce {|x, y| x && y}
+  i = 0
+
+  while i < source_array.length do
+
+    i+=1
+  end
+
 
 end
 
 def reduce_to_any_true (source_array)
-  source_array.reduce{|x, y| x || !!y}
+  #source_array.reduce{|x, y| x || !!y}
 end
