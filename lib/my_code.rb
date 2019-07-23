@@ -40,7 +40,7 @@ end
 def reduce_to_all_true(source_array)
   #source_array.reduce {|x, y| x && y}
   source_array.each do |x, y|
-    x && y
+    y && !!y 
   end
     return source_array
 end
