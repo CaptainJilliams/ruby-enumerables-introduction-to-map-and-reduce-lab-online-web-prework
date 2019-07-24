@@ -42,7 +42,7 @@ def reduce_to_all_true(source_array)
   i = 0
   #  source_array = [1, 2, true, "razmatazz", false]
   while i < source_array.length do
-    if source_array[i] ==  false
+    if source_array[i]
       return true
       i+=1
     else
