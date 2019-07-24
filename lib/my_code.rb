@@ -40,9 +40,9 @@ end
 def reduce_to_all_true(source_array)
   #source_array.reduce {|x, y| x && y}
   i = 0
-
+  x = nil
   while i < source_array.length do
-    if source_array[i] == nil || false  
+    if source_array[i] ==  x 
       return false
     else
       return true
